@@ -1,0 +1,36 @@
+.services{
+    .services-icon{
+        width: 80px;
+        height: 80px;
+        margin: 0px 10px;
+        background:  linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+        border-radius: 50%;
+        text-align: center;
+        font-size:40px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color:transparent;
+    }
+    .services-box{
+        display: flex;
+        h2{
+            font-size: 18px;
+            font-weight: 700;
+            padding: 0px 15px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 2;
+            color: #616075;
+        }
+        a{
+            font-size: 11px;
+            margin-top: 20px;
+            margin-left: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.blog{
+    .content-1{
+        span{
+            font-size: 12px;
+            color: #1a2860;
+        }
+        h5{
+            font-size: 40px;
+            font-weight: 800;
+            background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .am{
+        margin-bottom: 100px;
+        a{
+            font-size: 18px;
+            color: #1a2860;
+            font-weight: 800;
+            padding-top: 40px;
+        }
+    }
+    .crv{
+        background: #fff;
+        -webkit-box-shadow: 0 20px 40px rgb(71 67 97 / 9%);
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        .img-3{
+            padding-left: 50px;
+            position: relative;
+            overflow: hidden;
+            .tages{
+                top: auto;
+                bottom: 0;
+                right: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                padding: 0;
+                position: absolute;
+                font-size: 13px;
+                font-weight: 500;
+                background: #fff;
+                a{
+                    padding: 7px 10px;
+                    display: inline-block;
+                }
+            } 
+        }
+    }
+    .cont{
+        padding: 40px 30px;
+        .info{
+            display: flex;
+            margin-bottom: 15px;
+            position: absolute;
+            top: 10px;
+            left: -55px;
+            transform: rotate(-90deg) translateX(-50%);
+            .author{
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-left: 10px;
+                font-weight: 500;
+                color: #000;
+                span{
+                    font-size: 12px;
+                    color: #000;
+                }
+                .date{
+                    margin: 0;
+                    letter-spacing: normal;
+                    font-weight: 400;
+                    margin-right: 50px;
+                    opacity: 7;
+                    a{
+                        font-size: 12px;
+                        margin-left: 15px;
+                        background-image: linear-gradient(110deg, #ff5e57 0%, #409fff 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+        .title-1{
+            p{
+                font-size: 18px;
+                color: #1a2860;
+                font-weight: 900;
+            }
+        }
+    }
+}
